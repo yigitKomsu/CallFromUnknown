@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8f7f58ba0f87bd84591e05ae3f38511e
+timeCreated: 1484987472
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Taurus Mono Outline
+  fontNames:
+  - Taurus Mono Outline
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 80bb7affb11f984409c1f74e4586f387, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

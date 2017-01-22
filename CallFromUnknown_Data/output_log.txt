@@ -17,7 +17,7 @@ Platform assembly: D:\UnityRepos\TheCall\CallFromUnknown_Data\Managed\UnityEngin
 Loading D:\UnityRepos\TheCall\CallFromUnknown_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\UnityRepos\TheCall\CallFromUnknown_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\UnityRepos\TheCall\CallFromUnknown_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.118 seconds
+- Completed reload, in  0.127 seconds
 Platform assembly: D:\UnityRepos\TheCall\CallFromUnknown_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\UnityRepos\TheCall\CallFromUnknown_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0

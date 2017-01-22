@@ -62,7 +62,8 @@ public class Relay : MonoBehaviour {
 					else
 						errorText.GetComponent<Text> ().text = "NOT ENOUGH CREDITS!";
 					Destroy (gameObject);
-				}
+				} else if (Input.GetButtonDown ("Fire2"))
+					Destroy (gameObject);
 			}
 		} else {
 			speed = GDM.speed;
@@ -92,13 +93,16 @@ public class Relay : MonoBehaviour {
 	}
 
 	public void IncomingMessage(){
-		
 		AS.clip = AC_Transmission;
 		AS.Play ();
 		//select a random piece from the complete string.
 		int rand = Random.Range (0, GDM.messageBits.Count + 1);
 		GDM.messageBits.TryGetValue (rand, out inc_msg);
 		if (inc_msg != null) {
+			EventSystem.GetComponent<MenuButtons> ().SetMission ();
+			EventSystem.GetComponent<MenuButtons> ().Relay = gameObject;
+			Camera.main.GetComponent<CameraCode> ().LerpPos = LerpTo;
+			Camera.main.GetComponent<CameraCode> ().LookAt = gameObject;
 			Alarm.SetActive (true);
 			GDM.speed = 1;
 			LM.input_int = rand;

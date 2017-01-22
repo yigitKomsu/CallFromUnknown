@@ -110,6 +110,7 @@ public class MenuButtons : MonoBehaviour {
 	}
 
 	public void AcceptMission(){
+		GDM.GetComponent<GameDataManager> ().Credit -= 20;
 		AS.PlayOneShot (AC_Button);
 		Relay.GetComponent<Relay> ().Alarm.SetActive (false);
 		SceneManager.LoadScene ("SignalInterpret");

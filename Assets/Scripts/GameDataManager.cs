@@ -81,6 +81,7 @@ public class GameDataManager : MonoBehaviour {
 			if (Day == 30) {
 				Day = 1;
 				Month++;
+				Credit += 50;
 			}
 		} else if (Month >= 12) {
 			Day = 1;
